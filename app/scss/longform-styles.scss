@@ -151,13 +151,7 @@
                 line-height: 39.9px;
             }
         }
-        .subhead {
-            font-size: 22px;
-            padding-top: 10px;
-            @include mobile {
-                font-size: 18px;
-            };
-        }
+
     }
 }
 
@@ -289,6 +283,7 @@
 .containerPhotoCaption {
     margin-top: 0.5em;
     padding: 0 12px;
+        margin-bottom: 30px;
 }
 // ----------- ADS CSS --------------------
 

@@ -132,11 +132,11 @@ line-height: normal;
   }
 
   p {
-    font-size: 24px;
-    color: rgb(111, 111, 111);
+    font-size: 24px !important;
+    color: rgb(111, 111, 111) !important;
     @include tablet {
-      color:inherit;
-      font-size: inherit;
+      color:inherit !important;
+      font-size: inherit !important;
     }
   }
 }
